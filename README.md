@@ -104,8 +104,8 @@ As part of this, I’ve implemented the following steps:
 
 - Created a dataframe named Bank Stocks Volume, by selecting the volume column of the datasets, in order to analyze the volume of the bank’s stocks
 - Using the Bank Stocks Price and the Bank Stock Volume dataframes, I divided the datasets into 2 parts to train the AI/ML model: 65% for the training, 35% for the testing. The training set is used for model training, and the testing set is used for testing model. Below is for example the training and the testing of C and BAC respectively:
-- ![image](https://user-images.githubusercontent.com/79173300/133148462-2c41162c-abc3-42df-8277-b8fe9135658f.png)
-- ![image](https://user-images.githubusercontent.com/79173300/133148593-f3900dfe-8c3a-4617-977b-5d892e4e6421.png)
+![image](https://user-images.githubusercontent.com/79173300/133148462-2c41162c-abc3-42df-8277-b8fe9135658f.png)
+![image](https://user-images.githubusercontent.com/79173300/133148593-f3900dfe-8c3a-4617-977b-5d892e4e6421.png)
 
 ![image](https://user-images.githubusercontent.com/79173300/133148795-bbac2fa9-9e93-41fd-98f1-e9cb11e28104.png)
 ![image](https://user-images.githubusercontent.com/79173300/133148827-5e947fe1-ceec-4951-88df-6db87008b574.png)
