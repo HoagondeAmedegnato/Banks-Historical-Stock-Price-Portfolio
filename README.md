@@ -68,8 +68,12 @@ As part of this, I’ve implemented the following steps:
 - ![image](https://user-images.githubusercontent.com/79173300/133142727-0598c93e-2474-4a96-b1f4-cb41a3e9d9d1.png)
 - Calculated the daily Return of each Bank on the Stock’s Price; the formula I used for this return is as follow: ***Bank_daily_return[j] = (df[j]-df[j-1])/df[j-1]***; where df[j] = stock price of today; df[j-1] = stock price from previous day. So, the Return is calculated as stock price of today minus stock price from previous day, divided by stock price from previous day.
 - ![image](https://user-images.githubusercontent.com/79173300/133142874-621dd2ff-90aa-4347-8a25-5fac3b70500e.png)
+
+
 - Calculated the Pearson Correlation of the stocks close and stocks return. 
 - ![image](https://user-images.githubusercontent.com/79173300/133142993-f7518ff4-f9e9-40d4-840a-49be60a82511.png)
+
+
 ___
 4- ***Feature Engineering***: 01.Assets Allocation.ipynb
 
@@ -87,6 +91,8 @@ As part of this, I’ve implemented the following steps:
 
 - Calculated Beta for a single stock return (BAC and JPM for example) and fit a polynomial between them. Note that Beta represents the slope of the line regression line (market return vs. stock return); it’s a measure of the volatility or systematic risk of a security or portfolio compared to the entire market (JPM). Beta is used in the CAPM and describes the relationship between systematic risk and expected return for assets
 - ![image](https://user-images.githubusercontent.com/79173300/133145883-51dc35ce-9e0d-45b4-8b90-c8a72ec08689.png)
+
+
 - Applied the CAPM formula to an individual stock return 
 - Defined a function to calculate Beta for all stocks returns
 ![image](https://user-images.githubusercontent.com/79173300/133146499-4845edcd-837f-4569-8778-5264c7e3f9c1.png)
