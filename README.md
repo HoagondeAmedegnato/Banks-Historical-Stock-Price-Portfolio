@@ -86,8 +86,14 @@ I’ve developed CAPM (Capital Asset Pricing Model), which is a model that descr
 As part of this, I’ve implemented the following steps:
 
 - Calculated Beta for a single stock return (BAC and JPM for example) and fit a polynomial between them. Note that Beta represents the slope of the line regression line (market return vs. stock return); it’s a measure of the volatility or systematic risk of a security or portfolio compared to the entire market (JPM). Beta is used in the CAPM and describes the relationship between systematic risk and expected return for assets
+- ![image](https://user-images.githubusercontent.com/79173300/133145883-51dc35ce-9e0d-45b4-8b90-c8a72ec08689.png)
 - Applied the CAPM formula to an individual stock return 
 - Defined a function to calculate Beta for all stocks returns
+![image](https://user-images.githubusercontent.com/79173300/133146499-4845edcd-837f-4569-8778-5264c7e3f9c1.png)
+![image](https://user-images.githubusercontent.com/79173300/133146544-27c0a790-a2fc-4977-a5cd-1ecb8cacca29.png)
+![image](https://user-images.githubusercontent.com/79173300/133146581-ec806b59-e250-4cb0-96c0-eba9e3425876.png)
+![image](https://user-images.githubusercontent.com/79173300/133146618-b6028491-48e8-4da1-9937-9bdf24116b62.png)
+![image](https://user-images.githubusercontent.com/79173300/133146869-b6c8b3b4-289c-4171-8840-4e62cbb5e57c.png)
 - Applied the CAPM formula to calculate the return for the portfolio
 ___
 6- ***Inference***: 03.Prediction.ipynb
