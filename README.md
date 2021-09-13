@@ -107,6 +107,7 @@ As part of this, I’ve implemented the following steps:
 ![image](https://user-images.githubusercontent.com/79173300/133148462-2c41162c-abc3-42df-8277-b8fe9135658f.png)
 ![image](https://user-images.githubusercontent.com/79173300/133148593-f3900dfe-8c3a-4617-977b-5d892e4e6421.png)
 
+
 ![image](https://user-images.githubusercontent.com/79173300/133148795-bbac2fa9-9e93-41fd-98f1-e9cb11e28104.png)
 ![image](https://user-images.githubusercontent.com/79173300/133148827-5e947fe1-ceec-4951-88df-6db87008b574.png)
 - I also built and trained a Ridge Linear Regression Model to test the model and to make a prediction, by choosing alpha = 1 and 4
