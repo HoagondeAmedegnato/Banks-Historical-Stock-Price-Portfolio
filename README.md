@@ -66,6 +66,14 @@ As part of this, I’ve implemented the following steps:
 - Analyzed the whole datasets by examining them
 - Created a dataframe named Bank Stocks Close, by selecting the close column, in order to analyze the price of the bank’s stocks
 - ![image](https://user-images.githubusercontent.com/79173300/133142727-0598c93e-2474-4a96-b1f4-cb41a3e9d9d1.png)
+- ![image](https://user-images.githubusercontent.com/79173300/133187216-bf6ea77d-bfa3-4a95-a9db-a6d9431363f2.png)
+- ![image](https://user-images.githubusercontent.com/79173300/133187245-4e800e7d-1bd8-49ab-bed6-3c5f803f7ba1.png)
+- ![image](https://user-images.githubusercontent.com/79173300/133187307-98c72a72-6ba6-4575-83cb-9abece494568.png)
+- ![image](https://user-images.githubusercontent.com/79173300/133187364-f1c343aa-6a1c-4c26-bc69-b921be8d01ad.png)
+- ![image](https://user-images.githubusercontent.com/79173300/133187395-d693d962-dd91-46e6-98f3-6ddbf92862d2.png)
+- ![image](https://user-images.githubusercontent.com/79173300/133187433-8e9a29b8-03cc-4db2-a5ac-d9f8b0287463.png)
+
+
 - Calculated the daily Return of each Bank on the Stock’s Price; the formula I used for this return is as follow: ***Bank_daily_return[j] = (df[j]-df[j-1])/df[j-1]***; where df[j] = stock price of today; df[j-1] = stock price from previous day. So, the Return is calculated as stock price of today minus stock price from previous day, divided by stock price from previous day.
 - ![image](https://user-images.githubusercontent.com/79173300/133142874-621dd2ff-90aa-4347-8a25-5fac3b70500e.png)
 
