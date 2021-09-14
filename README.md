@@ -71,7 +71,7 @@ As part of this, I’ve implemented the following steps:
 - ![image](https://user-images.githubusercontent.com/79173300/133187307-98c72a72-6ba6-4575-83cb-9abece494568.png)
 - ![image](https://user-images.githubusercontent.com/79173300/133187364-f1c343aa-6a1c-4c26-bc69-b921be8d01ad.png)
 - ![image](https://user-images.githubusercontent.com/79173300/133187395-d693d962-dd91-46e6-98f3-6ddbf92862d2.png)
-- ![image](https://user-images.githubusercontent.com/79173300/133187433-8e9a29b8-03cc-4db2-a5ac-d9f8b0287463.png)
+- ![image](https://user-images.githubusercontent.com/79173300/133187601-34be2b4e-bb1a-4073-87dc-2f0d93986c23.png)
 
 
 - Calculated the daily Return of each Bank on the Stock’s Price; the formula I used for this return is as follow: ***Bank_daily_return[j] = (df[j]-df[j-1])/df[j-1]***; where df[j] = stock price of today; df[j-1] = stock price from previous day. So, the Return is calculated as stock price of today minus stock price from previous day, divided by stock price from previous day.
