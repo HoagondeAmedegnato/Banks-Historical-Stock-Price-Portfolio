@@ -8,10 +8,10 @@ ___
 1. ***Introduction***
 
 2. ***Data Collection and Data Preprocessing***
-3. ***Exploratory Data Analysis***: 00.EDA.ipynb 
-4. ***Feature Engineering***: 01.Assets Allocation.ipynb
-5. ***Model Development***: 02.CAPM.ipynb
-6. ***Inference***: 03.Prediction.ipynb
+3. ***Exploratory Data Analysis***: 00_EDA.ipynb 
+4. ***Feature Engineering***: 01_Assets_Allocation.ipynb
+5. ***Model Development***: 02_CAPM.ipynb
+6. ***Inference***: 03_Prediction.ipynb
 7. ***Findings and Takeaways***
 ___
 1- ***Introduction*** 
@@ -59,7 +59,7 @@ During the project, I’ve also responded to these following questions that have
 - Which stock would you classify as the riskiest over the entire time period?
 - Which would you classify as the riskiest for the year 2015?
 ___
-3- ***Exploratory Data Analysis***: 00.EDA.ipynb
+3- ***Exploratory Data Analysis***: 00_EDA.ipynb
 
 As part of this, I’ve implemented the following steps:
 
@@ -83,7 +83,7 @@ As part of this, I’ve implemented the following steps:
 
 
 ___
-4- ***Feature Engineering***: 01.Assets Allocation.ipynb
+4- ***Feature Engineering***: 01_Assets_Allocation.ipynb
 
 Assuming I have 1 million of dollars to be invested, and I will allocate this fund based on the weights of the stocks.  I’ve defined the ASSETS = [BAC  C  GS  JPM  MS  WFC], and the WEIGHTS = [10.92%  12.06%  0.602%  3.627%  14.492%  17.636%], Portfolio weights must sum to 1: I’ve created a function (portfolio) to normalize the stock prices based on their initial price, calculated the daily return of that portfolio, created a function that takes in the stock prices along with the weights and return. I’ve calculated the Cumulative return, the Standard deviation, the Average daily return, and the Sharpe ratio of the portfolio. Note that:
 - Stock daily return is a calculation of how much investors have gained or lost per day. The formula is: ***Stock daily return = Closing stock price(t) – Closing stock price(t-1) / Closing stock price(t-1)***
@@ -91,7 +91,7 @@ Assuming I have 1 million of dollars to be invested, and I will allocate this fu
 - The Standard deviation is a measurement of the dispersion away from the mean. The more spread the data is, the higher the standard deviation.
 - Sharpe ratio is used by investors to calculate the return of an investment compared to its risk. It’s a simply a calculation of the average return earned in excess of the risk free rate. As Sharpe ratio increases, risk-adjusted return increases and security becomes more desired by investors.
 ___
-5- ***Model Development***: 02.CAPM.ipynb
+5- ***Model Development***: 02_CAPM.ipynb
 
 I’ve developed CAPM (Capital Asset Pricing Model), which is a model that describes the relationship between the expected return and risk of securities. It indicated that the expected return on a security is equal to the risk-free return plus a risk premium. CAPM assumes that there exists a risk-free asset with zero standard deviation. The CAPM formula is as follow: ***r(i) = r(f) + B(i)(r(m) – r(f))***, where r(i) = Expected Return of a Security; r(f) = Risk Free Rate of Return; B(i) = Beta between the stock and the market; r(m) – r(f) = Risk Premium (incentive for investing in a risky security).
 
@@ -110,7 +110,7 @@ As part of this, I’ve implemented the following steps:
 ![image](https://user-images.githubusercontent.com/79173300/133146869-b6c8b3b4-289c-4171-8840-4e62cbb5e57c.png)
 - Applied the CAPM formula to calculate the return for the portfolio
 ___
-6- ***Inference***: 03.Prediction.ipynb
+6- ***Inference***: 03_Prediction.ipynb
 
 In this part of prediction, I’ve trained a ridge regression model and deep neural network model to predict future stock prices. By accurately predicting stock prices, investors can maximize returns and know when to buy/sell securities. The AI/ML model will be trained using historical stock price data along with the volume of transaction. I use a type of neural nets known as Long Short-Term Memory Networks (LSTM).
 
