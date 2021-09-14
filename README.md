@@ -1,5 +1,5 @@
 # Banks-Historical-Stock-Price-Portfolio
-Visualize and Analyze the Stock Prices of 6 major Banks
+***Visualize and Analyze the Stock Prices of 6 major Banks***
 
 ![image](https://user-images.githubusercontent.com/79173300/133194123-706178d6-d53d-42b9-86a0-4c72e847dc79.png)
 ___
@@ -133,7 +133,7 @@ ___
 7- ***Findings and Takeaways***
 
 If I point myself in 2015 for example, in which bank would I have agreed to invest?
-Below are some of the information I’ve collected for the year ended 2015:
+Below are some of the information I’ve collected for the years ended 2015 and 2020:
 
 - *BAC*: $17.28 on December 2015 and $24.61 on November 2020, which gives an increase of 42.42%
 - *C*: $51.11 on December 2015 and $47.65 on November 2020, which gives a decrease of 6.77%
