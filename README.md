@@ -1,5 +1,7 @@
 # Banks-Historical-Stock-Price-Portfolio
 Visualize and Analyze the Stock Prices of 6 major Banks
+
+![image](https://user-images.githubusercontent.com/79173300/133194123-706178d6-d53d-42b9-86a0-4c72e847dc79.png)
 ___
 **Note**: This readme will guide you through the steps I took to complete this project
 ___
