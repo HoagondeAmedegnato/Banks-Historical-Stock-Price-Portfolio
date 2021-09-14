@@ -129,3 +129,19 @@ As part of this, I’ve implemented the following steps:
 ___
 
 7- ***Findings and Takeaways***
+
+If I point myself in 2015 for example, in which bank would I have agreed to invest?
+Below are some of the information I’ve collected for the year ended 2015:
+
+- *BAC*: $17.28 on December 2015 and $24.61 on November 2020, which gives an increase of 42.42%
+- *C*: $51.11 on December 2015 and $47.65 on November 2020, which gives a decrease of 6.77%
+- *GS*: $176.56 on December 2015 and $214.51 on November 2020, which gives an increase of 21.49%
+- *JPM*: $67.89 on December 2015 and $117.30 on November 2020, which gives an increase of 72.78%
+- *MS*: $33.61 on December 2015 and $58.81 on November 2020, which gives an increase of 74.98%
+- *WFC*: $55.85 on December 2015 and $24.90 on November 2020, which gives a decrease of 55.42%
+
+I see that the first two banks that have significantly increased are Morgan Stanley (MS) with 74.98%; followed by JPMorgan Chase (JPM) with 72.78%; by consequence, I would invest in MS and JPM. I can also invest in Goldman Sachs (GS), since they have a good price on December 2015 of $176.56.
+
+Note that at the beginning of 2006, C has the highest price, followed by GS; C has crashed in 2008 unfortunately, while GS continued to progress to take the first place.
+
+The decision of the investors depends on the increase and the decrease of every bank’s price within a period of time. And personally, I will recommend the investors to consider **Morgan Stanley (MS)**, **JPMorgan Chase (JPM)**, and **Goldman Sachs (GS)**; and to check their progress every three months at least.
